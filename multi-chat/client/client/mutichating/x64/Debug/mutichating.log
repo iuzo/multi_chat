@@ -1,0 +1,79 @@
+﻿  main.cpp
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(68): error C2664: 'INT_PTR DialogBoxParamW(HINSTANCE,LPCWSTR,HWND,DLGPROC,LPARAM)': 인수 4을(를) 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)'에서 'DLGPROC'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(68): note: 대상 형식과 일치하는 범위에 이름이 같은 함수가 없습니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(122): error C2664: 'UINT GetDlgItemTextW(HWND,int,LPWSTR,int)': 인수 3을(를) 'char [513]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(122): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(130): error C2664: 'UINT GetDlgItemTextW(HWND,int,LPWSTR,int)': 인수 3을(를) 'char [20]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(130): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(159): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [26]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(159): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(164): error C2664: 'UINT GetDlgItemTextW(HWND,int,LPWSTR,int)': 인수 3을(를) 'char [10]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(164): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(192): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [28]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(192): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(198): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [28]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(198): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(203): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 2을(를) 'const char [28]'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(203): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(210): error C2664: 'UINT GetDlgItemTextW(HWND,int,LPWSTR,int)': 인수 3을(를) 'char [20]'에서 'LPWSTR'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(210): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(134): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(135): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' 선언을 참조하십시오.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(139): error C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(440): note: 'strtok' 선언을 참조하십시오.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(236): error C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1469): note: 'vsprintf' 선언을 참조하십시오.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(254): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 인수 3을(를) 'char *'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(254): note: 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(268): error C2664: 'void DisplayText(char *,...)': 인수 1을(를) 'const char [8]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(268): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(317): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [9]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(317): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(322): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [13]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(322): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(343): error C2664: 'void DisplayText(char *,...)': 인수 1을(를) 'const char [24]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(343): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(361): error C2664: 'void DisplayText(char *,...)': 인수 1을(를) 'const char [33]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(361): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(378): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(380): error C2664: 'void err_display(char *)': 인수 1을(를) 'const char [9]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(380): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(385): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(387): error C2664: 'void err_display(char *)': 인수 1을(를) 'const char [9]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(387): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(394): error C2664: 'void DisplayText(char *,...)': 인수 1을(를) 'const char [24]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(394): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(329): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 'inet_addr' 선언을 참조하십시오.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(366): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(418): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [9]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(418): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(424): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [13]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(424): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(433): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [7]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(433): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(441): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [13]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(441): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(457): error C2664: 'void err_display(char *)': 인수 1을(를) 'const char [11]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(457): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(464): error C2664: 'void err_display(char *)': 인수 1을(를) 'const char [11]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(464): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(478): error C2664: 'void DisplayText(char *,...)': 인수 1을(를) 'const char [23]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(478): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(485): error C2664: 'void DisplayText(char *,...)': 인수 1을(를) 'const char [16]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(485): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(490): error C2664: 'void DisplayText(char *,...)': 인수 1을(를) 'const char [46]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(490): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(498): error C2664: 'void err_quit(char *)': 인수 1을(를) 'const char [13]'에서 'char *'(으)로 변환할 수 없습니다.
+  c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(498): note: 문자열 리터럴로부터의 변환은 const 한정자가 손실됩니다(/Zc:strictStrings 참조).
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(437): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winsock2.h(1831): note: 'inet_addr' 선언을 참조하십시오.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(451): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: 'strcpy' 선언을 참조하십시오.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(475): error C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\time.h(506): note: 'localtime' 선언을 참조하십시오.
+c:\users\baekyunghwan\desktop\14011019multichat\mutichating\mutichating\main.cpp(511): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1774): note: 'sprintf' 선언을 참조하십시오.
